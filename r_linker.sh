@@ -69,8 +69,6 @@ MAX_LEN=0
 # find the longest name, for pretty formatting
 for A_FILE in $ALL_FILES
 do
-    echo "Raw A: $A_FILE"
-
     LOCAL_LEN=$(echo "$A_FILE" | wc -m)
 
     if [ "$LOCAL_LEN" -gt "$MAX_LEN" ]; then
@@ -79,13 +77,9 @@ do
 
 done
 
-echo ""
-
 # write out the asset definitions
 for A_FILE in $ALL_FILES
 do
-    echo "Raw B: $A_FILE"
-
     # strip the illegal define chars
     A_FILE_CLEAN=$(echo "$A_FILE" | sed 's/[-@., ]/_/g')
 
