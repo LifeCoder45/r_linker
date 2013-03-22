@@ -48,3 +48,18 @@ Whenever you need to use an asset, whether it's a database file, an image, or a 
 
 # What's next?
 I'm not quite sure. I'd like to add some more seperation of the types of assets, and possible expand the patterns matched from what they are now. Be sure to let me know of any changes you'd like to see!
+
+# License
+    Copyright 2013 Josh O'Neal
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
