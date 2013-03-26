@@ -40,11 +40,11 @@ Whenever you need to use an asset, whether it's a database file, an image, or a 
 
 ###Previously
 
-`UIImage *anImage = [UIImage imageNamed:@"Default-586h@2x.png"]; // ugh`
+`UIImage *anImage = [UIImage imageNamed:@"Default.png"]; // ugh`
 
 ###New and improved!
 
-`UIImage *anImage = [UIImage imageNamed:rDefault_568h_2x_png]; // wow-wee!`
+`UIImage *anImage = [UIImage imageNamed:rDefault_png]; // wow-wee!`
 
 # What's next?
 I'm not quite sure. I'd like to add some more seperation of the types of assets, and possible expand the patterns matched from what they are now. Be sure to let me know of any changes you'd like to see!
